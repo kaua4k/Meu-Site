@@ -1,0 +1,88 @@
+header{
+    background-color: rgb(95, 171, 194);
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+div{
+    text-align: center;
+    background-color: rgb(174, 219, 205);
+}
+*{
+    border-radius: 5px;
+}
+.whattsap{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 150px;
+}
+.eu{
+    max-width: 25%;
+    border-radius: 50%;
+    animation: girar 1s ease 1s 1 forwards;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+h2, h3{
+    color: rgb(146, 177, 177);
+}
+.button{
+    background-color: rgb(95, 171, 194);
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(143, 253, 253);
+    
+}
+.button:hover {
+    animation: changeColor 0.2s ease 1 forwards;
+    padding: 10px;
+    text-decoration: none;
+}
+.whattsap:hover{
+animation: expandir 0.4s ease 1 forwards;
+}
+ol {
+    width: 0px;
+}
+li:hover{
+    animation: mover 0.2s ease 1 forwards;
+}
+.alinhar{
+    margin-inline: 45%;
+}
+@keyframes expandir{
+    0% {width: 150px}
+    100%{width: 200px;}
+}
+@keyframes mover {
+    0% {width: 0px;}
+    100% {width: 100px;}
+}
+@keyframes girar{
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+@keyframes changeColor{
+    0% {background-color: rgb(95, 171, 194);color: rgb(143, 253, 253);}
+    100% {background-color: rgb(143, 253, 253);color: rgb(95, 171, 194);}
+}
+.sobre{
+    padding: 20px;
+}
+.projetos{
+    padding: 10px;
+    margin-top: 10px;
+}
+div{
+    margin-inline: 25%;
+}
+footer{
+    text-align: center;
+    background-color: rgb(146, 177, 177);
+    padding: 15px;
+    margin-top: 20px;
+    
+}
+body{
+    background-color: rgb(10, 43, 53);;
+}
